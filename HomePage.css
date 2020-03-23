@@ -1,0 +1,62 @@
+
+@font-face{
+    font-family: Amble;
+    src: url(Amble-Regular.ttf);
+}
+
+body {
+    margin:0;
+    padding:0;
+
+    }
+
+nav.Header {
+    width: 100vw;
+    height: 100px;
+    background-position: (0,0);
+    background-color: #ECECEC;
+}
+
+nav.Header h1 {
+    position: fixed;
+    color:#1A1819;
+    font-size:50px;
+    left:43%;
+    top:0;
+
+
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.sticky h1{
+    
+
+    left:45%;
+    
+}
+div.hero {
+    padding-top:10px;
+    width:100vw;
+    height:600px;
+    background-image:url("hero-banner.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-color: #1A1819	;
+}
+div.hero p {
+    margin-top:50px;
+    font-size:50;
+    margin-left:50px;
+    width:500px;
+    color:#ECECEC;
+}
+footer {
+    height:250px;
+    width:100vw;
+    padding-left:50px;
+}

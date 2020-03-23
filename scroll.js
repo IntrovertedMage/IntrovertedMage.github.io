@@ -1,13 +1,13 @@
 
 
 // Get the header
-const header = document.querySelector("nav");
+const header = document.querySelector("nav.Header");
 
 // Get the offset position of the navbar
 const sticky = header.offsetTop;
 
 scroll = function() {
-  if (window.pageYOffset > sticky) {
+  if (window.pageYOffset > sticky ) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
